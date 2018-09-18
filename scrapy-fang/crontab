@@ -1,0 +1,1 @@
+0 6 * * * root /scrapy/fang/run_spider.sh
