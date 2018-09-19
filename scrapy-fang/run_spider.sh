@@ -2,6 +2,7 @@
 
 DATE=`date +%Y%m%d`
 
+cd /scrapy/fang/
 scrapy crawl fang -o fang-$DATE.csv
 
 mv /scrapy/fang/fang-$DATE.csv /scrapy/fang/playdata/Fang/data
