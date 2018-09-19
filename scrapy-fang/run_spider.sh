@@ -3,6 +3,9 @@
 DATE=`date +%Y%m%d`
 
 cd /scrapy/fang/
+PATH=$PATH:/usr/local/bin
+export PATH
+
 scrapy crawl fang -o fang-$DATE.csv
 
 mv /scrapy/fang/fang-$DATE.csv /scrapy/fang/playdata/Fang/data
